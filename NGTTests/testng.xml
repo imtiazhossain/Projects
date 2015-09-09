@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <!--<test name="IE7Tests">-->
+        <!--<parameter name="browser" value="IE7" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="IE8Tests">-->
+        <!--<parameter name="browser" value="IE8" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <test name="IE9Tests">
+        <parameter name="browser" value="IE9" />
+        <packages>
+            <package name="tests.*" />
+        </packages>
+    </test>
+
+    <!--<test name="IE10Tests">-->
+        <!--<parameter name="browser" value="IE10" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="IE11Tests">-->
+        <!--<parameter name="browser" value="IE11" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="FirefoxTests">-->
+        <!--<parameter name="browser" value="Firefox" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="ChromeTests">-->
+        <!--<parameter name="browser" value="Chrome" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+</suite>

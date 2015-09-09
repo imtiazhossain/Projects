@@ -1,0 +1,5 @@
+- Run tests against Borrower and Lender
+- Create tests that send and verifies messages between borrower and lender
+- Structure tests to run on multiple browsers
+DONE - Set up Jenkins
+- Column resizing

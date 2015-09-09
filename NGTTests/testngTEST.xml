@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <!--<test name="IE7Tests">-->
+        <!--<parameter name="browser" value="IE7" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="IE8Tests">-->
+        <!--<parameter name="browser" value="IE8" />-->
+        <!--<packages>-->
+            <!--<package name="tests.*" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <test name="IE9Tests">
+        <parameter name="browser" value="IE9" />
+        <classes>
+            <class name="tests.FileUploadTests" />
+        </classes>
+    </test>
+
+    <!--<test name="IE10Tests">-->
+        <!--<parameter n    </towser" value="IE10" />-->
+        <!--<classes>-->
+        <!--<class name="tests.FileUploadTests" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="IE11Tests">-->
+        <!--<parameter name="browser" value="IE11" />-->
+        <!--<classes>-->
+        <!--<class name="tests.FileUploadTests" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="FirefoxTests">-->
+        <!--<parameter name="browser" value="Firefox" />-->
+        <!--<classes>-->
+            <!--<class name="tests.BookOptimizerTests" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="ChromeTests">-->
+        <!--<parameter name="browser" value="Chrome" />-->
+        <!--<classes>-->
+            <!--<class name="tests.BorrowerLenderTests" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+</suite>

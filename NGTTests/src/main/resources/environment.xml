@@ -1,0 +1,24 @@
+<qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
+
+    <name>Automated NGT Tests</name>
+    <!--<parameter>-->
+    <!--<name>QA</name>-->
+    <!--<key>QA Environment</key>-->
+    <!--<value><![CDATA[<a href="https://qa.equilend.com">qa</a>]]></value>-->
+    <!--</parameter>-->
+    <parameter>
+        <name>Staging</name>
+        <key>Staging Environment</key>
+        <value><![CDATA[<a href="https://staging.members.equilend.com/ngt/NextGenTrading.ngt?">staging</a>]]></value>
+    </parameter>
+    <parameter>
+        <name>Tool</name>
+        <key>Automation Tool</key>
+        <value>Selenium</value>
+    </parameter>
+    <parameter>
+        <name>CI Project</name>
+        <key>CI Project</key>
+        <value><![CDATA[<a href="http://172.16.1.88:8080/job/NGT%20Tests/">NGT Tests</a>]]></value>
+    </parameter>
+</qa:environment>
